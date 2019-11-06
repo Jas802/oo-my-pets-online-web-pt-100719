@@ -4,7 +4,7 @@ attr_reader :name, :species
 
 def initialize(name)
   @name = name
-  @speices = "humman"
+  @species = "humman"
   @@all << self
 end
 
